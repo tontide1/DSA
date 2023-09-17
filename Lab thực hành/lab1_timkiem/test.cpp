@@ -1,3 +1,6 @@
+/* 
+DHKHDL - Phan Tan Tai - 22684181
+*/
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>
