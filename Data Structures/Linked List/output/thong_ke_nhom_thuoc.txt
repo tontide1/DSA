@@ -1,0 +1,4 @@
+Ket qua thong ke theo nhom thuoc:
+Nhom 1 (Vitamin): 4
+Nhom 2 (Khang sinh): 0
+Nhom 3 (Thuc pham chuc nang): 2
