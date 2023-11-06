@@ -10,7 +10,6 @@ struct node {
 struct list {
     node *first, *last;
 };
-
 void init(list &l) {
     l.first = l.last = NULL;
 }
