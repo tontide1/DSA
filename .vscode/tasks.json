@@ -1,37 +1,37 @@
 {
-  "tasks": [
-    {
-      "type": "shell",
-      "label": "g++.exe build active file",
-      "command": "C:\\MinGW64\bin\\g++.exe",
-      "args": [
-        "/k", 
-        "${fileDirname}\\${fileBasenameNoExtension}.exe",
-        "&",
-        "pause",
-        "&",
-        "exit"
-      ],
-      "options": {
-        "cwd": "C:\\MinGW64\\bin"
+    "tasks": [
+      {
+        "type": "shell",
+        "label": "g++.exe build active file",
+        "command": "C:\\MinGW64\bin\\g++.exe",
+        "args": [
+          "/k", 
+          "${fileDirname}\\${fileBasenameNoExtension}.exe",
+          "&",
+          "pause",
+          "&",
+          "exit"
+        ],
+        "options": {
+          "cwd": "C:\\MinGW64\\bin"
+        }
+      },
+      {
+        "type": "shell",
+        "label": "g++ build & run active file",
+        "command": "C:\\MinGW64\\bin\\g++.exe",
+        "args": [
+          "/k", 
+          "${fileDirname}\\${fileBasenameNoExtension}.exe",
+          "&",
+          "pause",
+          "&",
+          "exit"
+        ],
+        "options": {
+          "cwd": "C:\\MinGW64\\bin"
+        }
       }
-    },
-    {
-      "type": "shell",
-      "label": "g++ build & run active file",
-      "command": "C:\\MinGW64\\bin\\g++.exe",
-      "args": [
-        "/k", 
-        "${fileDirname}\\${fileBasenameNoExtension}.exe",
-        "&",
-        "pause",
-        "&",
-        "exit"
-      ],
-      "options": {
-        "cwd": "C:\\MinGW64\\bin"
-      }
-    }
-  ],
-  "version":"2.0.0"
-}
+    ],
+    "version":"2.0.0"
+  }
